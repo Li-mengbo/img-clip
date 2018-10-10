@@ -7,14 +7,16 @@
 原生小程序不支持npm引入第三方库，可将本项目克隆至本地再做进一步处理
 
 ```bash
-git clone 
+git clone git@github.com:Mr-MengBo/img-clip.git
 ```
+下载完成后可以在json中引入该组件
 
 <h2 align="center">Links</h2>
 
 
-- [实现“自定义组件”](https://github.com/we-plugin/we-cropper/wiki/%E5%9C%A8WePY%E4%B8%AD%E5%AE%9E%E7%8E%B0%E2%80%9C%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A3%81%E5%89%AA%E7%BB%84%E4%BB%B6%E2%80%9D)
+- [实现“自定义组件”](https://github.com/Mr-MengBo/MiniApp-module)
 
+Tip: 必须把canvas放到引入剪裁组件的wxml中，否则绘制不成功，因为canvas是原生组件脱离在 WebView 渲染流程外。
 
 欢迎任意形式的贡献
 
