@@ -1,0 +1,45 @@
+/* component/clipImg.wxss */
+.clip {
+    position: relative;
+    width: 750rpx;
+    height: 100%;
+    height: 1200rpx;
+}
+
+.head-img,
+movable-area {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);  
+}
+
+movable-view {
+    height: 200rpx; 
+    width: 200rpx; 
+    border: 4rpx solid #fe9d00;
+    border-radius: 50%;
+}
+
+
+.btn {
+    position: absolute;
+    left: 0;
+    bottom: 10rpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 88rpx;
+    width: 100%;
+}
+
+.btn text {
+   width: 40%;
+   height: 100%;
+   border-radius: 10rpx;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: skyblue;
+   color: #fff; 
+}

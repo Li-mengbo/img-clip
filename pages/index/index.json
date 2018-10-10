@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "ClipImg": "../../component/clipImg/clipImg"
+    }
+}
