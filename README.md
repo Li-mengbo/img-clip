@@ -3,6 +3,7 @@
 </div>
 
 <h2 align="center"> Usage</h2>
+- [详细说明”](https://juejin.im/post/5bbea65c5188255c672ecf5d)
 
 原生小程序不支持npm引入第三方库，可将本项目克隆至本地再做进一步处理
 
